@@ -1,0 +1,44 @@
+
+
+
+@media screen and (min-width: 1200px) { 
+	#financialReport1, #financialReport2{
+	
+		height: 600px;
+	}
+	
+} 
+
+
+
+@media screen and (max-width: 1200px) { 
+	#financialReport1, #financialReport2{
+	
+		height: 500px;
+	}
+
+} 
+
+
+.FinancialReport1-container{
+	
+	display: block;
+	width:100%;
+}
+
+.FinancialReport2-container{
+	
+	display: block;
+	width:100%;
+}
+
+#financialReport1, #financialReport2{
+	
+	margin-top: 50px;	
+}
+
+.content{
+	
+	margin-top: 50px;
+}
+

@@ -1,0 +1,56 @@
+body {
+	background-color: #F2F2F2 !important;
+}
+
+body h1, h5, th, td, a, span, button {
+	font-family: Microsoft Yahei;
+}
+
+.skin-blue-light .content-header {
+	background: white !important;
+}
+
+.content-header {
+	margin-right: 0px !important;
+	height: 41px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #CDCDC1;
+	background: white !important;
+}
+
+.content-header>.breadcrumb {
+	position: absolute !important;
+	margin-top: 0px !important;
+	top: 5px !important;
+	background-color: white;
+}
+
+.content-header>.breadcrumb  span, a {
+	font-size: 14px;
+}
+
+.content-header>.breadcrumb>li+li:before {
+	content: '>\00a0';
+}
+
+.content-wrapper {
+	overflow: hidden;
+}
+
+.content {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+.main-footer {
+	font-size: 12px;
+	text-align: center;
+}
+
+.main-header .sidebar-toggle:before {
+	content: "" !important;
+}

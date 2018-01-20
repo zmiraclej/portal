@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:task="http://www.springframework.org/schema/task" 
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/task  
+	http://www.springframework.org/schema/task/spring-task-3.1.xsd 
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/mvc
+	http://www.springframework.org/schema/mvc/spring-mvc.xsd">   
+    
+	<!-- handle the json -->
+	<task:annotation-driven/> 
+	<bean
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<bean
+					class="org.springframework.http.converter.StringHttpMessageConverter">
+					<property name="supportedMediaTypes">
+						<list>
+							<value>text/plain;charset=UTF-8</value>
+						</list>
+					</property>
+				</bean>
+				<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">    
+					<property name="supportedMediaTypes">    
+						<list>    
+							<value>application/json;charset=UTF-8</value>    
+						</list>    
+					</property>  
+				</bean>  
+			</list>
+		</property>
+	</bean>
+	
+	<!-- the HandlerAdapter must before the mvc driven -->
+	<mvc:annotation-driven />
+	
+	<!-- match the jsp view -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+		p:prefix="/WEB-INF/pages/" p:suffix=".jsp" />
+		
+	<!-- 设置上传文件最大值   1M=1*1024*1024(B)=1048576 bytes -->    
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">    
+		<property name="maxUploadSize" value="104857600" />    
+		<property name="defaultEncoding" value="UTF-8" />    
+		<property name="resolveLazily" value="true" />    
+	</bean>  
+	
+	<!-- 配置首页 -->
+	<mvc:view-controller path="/" view-name="index.jsp" />
+	<!-- 静态资源处理 -->
+	<mvc:default-servlet-handler />
+
+	<mvc:resources mapping="/**" location="/" />
+	
+</beans>

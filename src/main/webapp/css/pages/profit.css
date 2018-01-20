@@ -1,0 +1,50 @@
+
+@media screen and (min-width: 1000px) { 
+	#groupGainFeeReport1, #groupGainFeeReport2{
+	
+		height: 500px;
+	}
+	
+	.report-container{
+	
+		display: block;
+		width:100%;
+	}
+	
+	.content{
+	
+		margin-top: 50px;
+	}
+	
+	
+} 
+
+
+
+@media screen and (max-width: 1000px) { 
+	#groupGainFeeReport1, #groupGainFeeReport2{
+		
+		height: 400px;
+	}
+	.report-container{
+		
+		display: block;
+		width:100%;
+	}
+	
+	.content{
+	
+		margin-top: 20px;
+	}
+
+} 
+
+#groupGainFeeReport1, #groupGainFeeReport2{
+	
+	margin-top: 50px;	
+}
+
+
+
+
+

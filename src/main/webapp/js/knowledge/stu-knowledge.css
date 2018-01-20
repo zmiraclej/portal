@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+.hide {
+	display: none;
+}
+.chart1 {
+	height: 400px;
+	overflow: hidden;
+	padding: 10px 1% 10px 0;
+	margin-bottom: 10px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	width: 49%;
+	float: left;
+	margin-right: 0px;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	cursor: default;
+	background-color: rgba(0, 0, 0, 0);
+}
+.chart2 {
+	height: 400px;
+	overflow: hidden;
+	padding: 10px 1% 10px 0;
+	margin-bottom: 10px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	width: 49%;
+	margin-left: 0px;
+	padding-left: 0px;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	cursor: default;
+	background-color: rgba(0, 0, 0, 0);
+}
+.chart-div {
+	margin-bottom: 20px;
+  	border: 1px solid #e3e3e3;
+  	border-radius: 4px;
+}
+.lta-modal {
+	top: 0;
+}
+#main {
+	position: relative;
+}
+.tab-content .table th,
+.tab-content .table td {
+	text-align: center;
+}
+.l-desc {
+	font-size: 12px;
+}
+.l-desc span {
+	padding-right: 16px;
+}
+.fix-img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+.fix-title {
+	height: 2%;
+	width: 100%;
+	text-align: center;
+	min-height: 20px;
+}
+.fix-close {
+	right: 5px;
+}
+.fix-left,
+.fix-right {
+	border: 1px solid gray;
+	width: 49.6%;
+	height: 98%;
+	float: left;
+	overflow: auto;
+	text-align: center;
+	position: relative;
+}
+.fix-answer {
+	padding: 5px 0;
+	text-align: center;
+}

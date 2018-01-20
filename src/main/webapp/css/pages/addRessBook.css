@@ -1,0 +1,47 @@
+ .default_pgToolbar li{
+	
+	display: inline-block;
+	list-style:none;
+	padding:0;
+	margin:0;
+	margin-left: 10px;
+	height: 25px;
+	float: left;
+	
+} 
+
+.default_pgToolbar{
+	
+	margin : 0;
+	padding: 0;
+}
+
+.default_pgContainer{
+	
+	margin-top: 10px;
+	height: 50px;
+	text-align: center;
+	align-item:¡¡center£»
+	
+}
+#pageinfo{
+	
+	padding-bottom: 5px;
+}
+
+/* @media screen and (max-width: 1000px) { 
+	
+	.default_pgContainer{
+		
+		margin-left: 0px !important;
+		
+	}
+} */
+
+.default_pgContainer{
+		
+		margin-left: 0px !important;
+		
+	}
+
+

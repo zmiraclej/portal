@@ -1,0 +1,73 @@
+div, title, span, label, a, tspan {
+	font-family: Microsoft YaHei, ahoma, Geneva, sans-serif !important;
+}
+
+.content .chartArea {
+	background-color:white;
+	margin-top:5px;
+}
+
+
+.chartArea .btn_container {
+	margin-top:12px;
+	display: block;
+	height: 40px;
+	width: 350px;
+	margin-left: 15px;
+}
+
+.btn_container select {
+	height:35px;
+}
+
+#return-button{
+	
+	right: 0;
+}
+
+.chart_title {
+	margin-left:16px;
+	margin-top:20px;
+	height:40px;
+}
+
+.chart_title span {
+	font-size:18px;
+	color:#333333;
+}
+
+.content {
+	margin-top:10px
+}
+
+.select {
+	margin-top:0px;
+	outline:none;
+	border:1px solid #BBBBBB;
+	border-radius:4px;
+	float:left;
+	width:100px;
+	height:35px
+}
+
+select {
+  background: url("img/arrow-drop-down.png') no-repeat scroll right center transparent;
+  height:35px;
+  -webkit-appearance:none;
+  appearance:none;
+  border:none;
+  font-size:18px;
+  padding:0px 10px;
+  padding-right:25px;
+  display:block;
+  width:100%;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  background-color: #FFFFFF;
+  color:#333333;
+  border-radius:4px;
+ }
+ 
+ 
+
+

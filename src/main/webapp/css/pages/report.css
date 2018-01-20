@@ -1,0 +1,169 @@
+.layui-nav-child dd {
+	line-height: 36px;
+}
+
+.layui-nav .layui-nav-more {
+	border-color: green transparent transparent !important;
+}
+
+.layui-nav .layui-nav-mored,
+.layui-nav-itemed .layui-nav-more {
+	border-color: transparent transparent green !important;
+}
+
+.layui-form-select .layui-edge {
+	border-top-color: green !important;
+}
+
+
+/* .layui-btn{
+	background-color: #0088de;
+} */
+
+
+/**
+��ť���������롢���桢�ύ��������ʽ
+**/
+
+.fristBtnDes {
+	border-radius: 5px;
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 14px;
+	font-weight: inherit;
+	color: white;
+	background-color: #0088de;
+	padding: 0px 1em;
+	margin-left: 10px;
+	border: 0px solid black;
+	border-radius: 5px;
+}
+
+.fristBtnDes:hover {
+	background-color: #019fe8;
+}
+
+.fristBtnDes:active {
+	background-color: #0072bb;
+}
+
+
+/**
+��ť���ء��趨��������ʽ
+**/
+
+.secBtnDes {
+	border-radius: 5px;
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 14px;
+	font-weight: inherit;
+	color: white;
+	background-color: #39ba78;
+	padding: 0px 1em;
+	margin-left: 10px;
+	border: 0px solid black;
+	border-radius: 5px;
+}
+
+.secBtnDes:hover {
+	background-color: #3dc680;
+}
+
+.secBtnDes:active {
+	background-color: #309b64;
+}
+
+
+/**
+������ť������ʽ
+**/
+
+.file {
+	position: relative;
+	display: inline-flex;
+	background: #0088de;
+	border: 1px solid #0088de;
+	border-radius: 5px;
+	padding: 0px 1em;
+	overflow: hidden;
+	color: #fff;
+	text-decoration: none;
+	text-indent: 0;
+	width: 140px;
+	line-height: 38px;
+	height: 38px;
+}
+
+.file input {
+	position: absolute;
+	font-size: 100px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+	font-size: 100px;
+	filter: alpha(opacity=0);
+	cursor: pointer;
+}
+
+.file:hover {
+	background: #019fe8;
+	text-decoration: none;
+	color: #fff;
+}
+
+.file:active {
+	background: #0072bb;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/**
+ɾ��ť��ʽ
+**/
+
+.thirBtnDes {
+	border-radius: 5px;
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 14px;
+	font-weight: inherit;
+	color: white;
+	background-color: #9cb4ac;
+	padding: 0px 1em;
+	margin-left: 10px;
+	border: 0px solid black;
+	border-radius: 5px;
+}
+
+.thirBtnDes:hover {
+	background-color: #899e97;
+}
+
+.thirBtnDes:active {
+	background-color: #70817b;
+}
+
+
+/**
+��ťͼ����ʽ
+**/
+
+.btnIconCss {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	margin-top: -5px;
+	margin-right: 5px
+}

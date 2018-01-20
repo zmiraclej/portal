@@ -1,0 +1,35 @@
+@media screen and (min-width: 1200px) { 
+	#financeFee{
+	
+		height: 500px;
+	}
+	
+} 
+
+
+
+@media screen and (max-width: 1200px) { 
+	#financeFee{
+	
+		height: 400px;
+	}
+
+} 
+
+
+.financeFee{
+	
+	display: block;
+	width:100%;
+}
+
+#financeFee{
+	
+	margin-top: 50px;	
+}
+
+.content{
+	
+	margin-top: 50px;
+}
+

@@ -1,0 +1,40 @@
+
+@media screen and (min-width: 1200px) { 
+	#containerEnrol-div{
+	
+		height: 500px;
+		display: block;
+		width:100%;
+	}
+
+	.content{
+	
+		margin-top: 50px;
+	}
+	
+	
+} 
+
+
+
+@media screen and (max-width: 1200px) { 
+	#containerEnrol-div{
+	
+		height: 400px;
+		display: block;
+		width:100%;
+	}
+	
+	.content{
+	
+		margin-top: 20px;
+	}
+
+} 
+
+
+
+
+
+
+

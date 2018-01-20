@@ -1,0 +1,46 @@
+
+/* table */
+#treeGrid{
+	
+	margin:0 auto;
+}
+
+/* ±íÍ· */
+.jqx-grid-column-header{
+	
+	background-color: #00BE67;
+	text-align: center;
+	color: #FFF;
+}
+
+.jqx-widget-header{
+	
+	color: #FFF;
+}
+.btn_div{
+	
+	display: inline-block;
+	margin-left: 10px;
+	color: #0080c0;
+	cursor: pointer;
+}
+
+.updTable{
+	
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.seg-tr{
+	
+	height: 30px;
+}
+.save-div{
+	width: 60px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.content{
+	margin-top: 50px;
+}
+

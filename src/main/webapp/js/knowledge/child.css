@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+.hide {
+	display: none;
+}
+.operator {
+	margin-bottom: 10px;
+}
+.operator .in-line{
+	margin-left: 20px;
+}
+.operator .sort,
+.operator .draw-type,
+.operator .draw-type .btn,
+.operator .deflection-course {
+	opacity: 0.4;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+}
+.btn.single,
+.draw-type.single,
+.draw-type.single .btn,
+.deflection-course.single {
+	opacity: 1;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+}
+.draw {
+	margin: 0 0 0 20px;
+	width: 230px;
+}
+.draw input {
+	width: 52px;
+}
+.avg {
+	margin: 0 0 0 20px;
+}
+.avg input {
+	width: 52px;
+}

@@ -1,0 +1,28 @@
+
+@media screen and (min-width: 1200px) { 
+	#groupIncomeExpenditure{
+	
+		height: 500px;
+		display: block;
+		width:100%;
+	}
+
+} 
+
+
+
+@media screen and (max-width: 1200px) { 
+	#groupIncomeExpenditure{
+	
+		height: 400px;
+		display: block;
+		width:100%;
+	}
+	
+} 
+
+
+
+
+
+

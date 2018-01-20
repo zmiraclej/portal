@@ -1,0 +1,249 @@
+{
+	"title": "所有学校-生源地分析",
+	"xAxisName": "学校",
+	"seriesName": "人数",
+	"seriesSecName": null,
+	"items": [
+		{
+			"xAxis": "锦江高中",
+			"series": [
+				{
+					"name": "成都",
+					"value": 200
+				}, {
+					"name": "达州",
+					"value": 70
+				}, {
+					"name": "重庆",
+					"value": 100
+				}, {
+					"name": "湖北",
+					"value": 10
+				}, {
+					"name": "广东",
+					"value": 20
+				}, {
+					"name": "上海",
+					"value": 5
+				}
+			],
+			"seriesSec": []
+		}, {
+			"xAxis": "锦江初中",
+			"series": [
+				{
+					"name": "成都",
+					"value": 190
+				}, {
+					"name": "达州",
+					"value": 80
+				}, {
+					"name": "重庆",
+					"value": 110
+				}, {
+					"name": "湖北",
+					"value": 20
+				}, {
+					"name": "广东",
+					"value": 30
+				}, {
+					"name": "上海",
+					"value": 15
+				}
+			],
+			"seriesSec": []
+		}, {
+			"xAxis": "成华校区",
+			"series": [
+				{
+					"name": "成都",
+					"value": 150
+				}, {
+					"name": "达州",
+					"value": 50
+				}, {
+					"name": "重庆",
+					"value": 120
+				}, {
+					"name": "湖北",
+					"value": 1
+				}, {
+					"name": "广东",
+					"value": 10
+				}, {
+					"name": "上海",
+					"value": 5
+				}
+			],
+			"seriesSec": []
+		}, {
+			"xAxis": "郫县分校",
+			"series": [
+				{
+					"name": "成都",
+					"value": 50
+				}, {
+					"name": "达州",
+					"value": 10
+				}, {
+					"name": "重庆",
+					"value": 9
+				}, {
+					"name": "湖北",
+					"value": 10
+				}, {
+					"name": "广东",
+					"value": 2
+				}, {
+					"name": "上海",
+					"value": 5
+				}
+			],
+			"seriesSec": []
+		}, {
+			"xAxis": "北城分校",
+			"series": [
+				{
+					"name": "成都",
+					"value": 100
+				}, {
+					"name": "达州",
+					"value": 20
+				}, {
+					"name": "重庆",
+					"value": 30
+				}, {
+					"name": "湖北",
+					"value": 0
+				}, {
+					"name": "广东",
+					"value": 30
+				}, {
+					"name": "上海",
+					"value": 5
+				}
+			],
+			"seriesSec": []
+		}, {
+			"xAxis": "达州校区",
+			"series": [
+				{
+					"name": "成都",
+					"value": 100
+				}, {
+					"name": "达州",
+					"value": 70
+				}, {
+					"name": "重庆",
+					"value": 100
+				}, {
+					"name": "湖北",
+					"value": 10
+				}, {
+					"name": "广东",
+					"value": 20
+				}, {
+					"name": "上海",
+					"value": 5
+				}
+			],
+			"seriesSec": []
+		}, {
+			"xAxis": "锦江幼儿园",
+			"series": [
+				{
+					"name": "成都",
+					"value": 80
+				}, {
+					"name": "达州",
+					"value": 10
+				}, {
+					"name": "重庆",
+					"value": 0
+				}, {
+					"name": "湖北",
+					"value": 0
+				}, {
+					"name": "广东",
+					"value": 0
+				}, {
+					"name": "上海",
+					"value": 0
+				}
+			],
+			"seriesSec": []
+		}, {
+			"xAxis": "郫县幼儿园",
+			"series": [
+				{
+					"name": "成都",
+					"value": 30
+				}, {
+					"name": "达州",
+					"value": 10
+				}, {
+					"name": "重庆",
+					"value": 1
+				}, {
+					"name": "湖北",
+					"value": 2
+				}, {
+					"name": "广东",
+					"value": 10
+				}, {
+					"name": "上海",
+					"value": 50
+				}
+			],
+			"seriesSec": []
+		}, {
+			"xAxis": "嘉祥九思",
+			"series": [
+				{
+					"name": "成都",
+					"value": 100
+				}, {
+					"name": "达州",
+					"value": 70
+				}, {
+					"name": "重庆",
+					"value": 50
+				}, {
+					"name": "湖北",
+					"value": 10
+				}, {
+					"name": "广东",
+					"value": 2
+				}, {
+					"name": "上海",
+					"value": 0
+				}
+			],
+			"seriesSec": []
+		}, {
+			"xAxis": "达州九思",
+			"series": [
+				{
+					"name": "成都",
+					"value": 200
+				}, {
+					"name": "达州",
+					"value": 70
+				}, {
+					"name": "重庆",
+					"value": 100
+				}, {
+					"name": "湖北",
+					"value": 10
+				}, {
+					"name": "广东",
+					"value": 20
+				}, {
+					"name": "上海",
+					"value": 5
+				}
+			],
+			"seriesSec": []
+		}
+	]
+}

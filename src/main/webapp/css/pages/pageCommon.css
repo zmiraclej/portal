@@ -1,0 +1,16 @@
+/**
+ * 菜单
+ */
+
+.treeview-menu {
+	margin-top: -1px !important;
+}
+
+
+/**
+ * bootstrapTable
+ */
+
+.fixed-table-container tbody .selected td {
+	background-color: #CCD8E0;
+}
